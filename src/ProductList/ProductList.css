@@ -1,0 +1,17 @@
+.productList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    margin: 20px;
+    width: 95%;
+}
+.productImg{
+    display: block;
+    text-align: center;
+    /* background-color: lightgray; */
+    img{
+        /* border: 1px solid grey; */
+        width: 300px; 
+    }
+}
