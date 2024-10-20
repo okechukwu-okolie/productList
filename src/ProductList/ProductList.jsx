@@ -5,7 +5,7 @@ import '../index.css'
 const ProductList =()=>{
     return(
         <div className="productList">
-            <ProductCard image='./comp1.webp' 
+            <ProductCard image='/comp1.webp' 
                          name='DELL INSPIRON' 
                          price='701.45'
                          desc1='15.6" FHD i5 10300H 8Gb 512 GB'
@@ -13,7 +13,7 @@ const ProductList =()=>{
                          desc3=' VN9-00266'
                          />
 
-            <ProductCard image='./comp2.webp' 
+            <ProductCard image='/comp2.webp' 
                          name='Dell INSPIRON 3530 Laptop' 
                          price='524.56'
                          desc1='Touch PC intel i5-13'
@@ -21,7 +21,7 @@ const ProductList =()=>{
                          desc3=' 512GB SSD'
                          />
 
-            <ProductCard image='./comp3.webp' 
+            <ProductCard image='/comp3.webp' 
                          name='ASUS ROG Strix' 
                          price='744.89'
                          desc1='G15 15" FHD Ryzen 7 6800H/HS 16.'
