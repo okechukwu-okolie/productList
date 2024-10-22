@@ -1,14 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.contner{
+  background-color: rgb(180, 179, 179);
+  color: white;
+}
+
 
 .productCard{
   border-radius: 10px;
   width: 300px;
   margin: 30px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 1px 5px white;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 18px;
+  background-color: rgb(63, 62, 62);
 
 
   p,span{
@@ -22,6 +28,7 @@
   font-size: 40px;
   color: red;
   margin-bottom: -50px;
+  text-shadow: 1px 3px 3px black;
 }
 
 .buy{
@@ -52,7 +59,8 @@
       width: 500px;
       border: none;
       font-size: 18px;
-      color: lightgray;
+      color: rgb(0, 0, 0);
+      background-color: rgb(180, 179, 179);
     }
   }
 
