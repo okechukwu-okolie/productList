@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.contner{
-  background-color: rgb(180, 179, 179);
-  color: white;
-}
+
 
 
 .productCard{
@@ -14,7 +11,9 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 18px;
-  background-color: rgb(63, 62, 62);
+  border: 1px solid grey;
+  box-shadow: 1px 1px 10px grey;
+  cursor: pointer;
 
 
   p,span{
@@ -29,6 +28,7 @@
   color: red;
   margin-bottom: -50px;
   text-shadow: 1px 3px 3px black;
+  cursor: pointer;
 }
 
 .buy{
@@ -36,8 +36,8 @@
   font-size: 40px;
   color: Blue;
   text-shadow: 1px 3px 3px black;
-  /* margin-left: -40px; */
-  /* margin-bottom: -80px; */
+  cursor: pointer;
+ 
 }
 
 .header{
@@ -46,6 +46,7 @@
   align-items: center;
   padding: 0px 40px;
   margin-top: 20px;
+}
 
   .input{
     border: 0.5px grey solid;
@@ -67,7 +68,44 @@
   img{
     width:30px;
     margin-right: 20px;
+    cursor: pointer;
 
     /* margin: 5px 10px; */
+  }
+
+
+.ham{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .ham{
+    display: block;
+    
+  }
+  .cart{
+    display: none;
+  }
+  .header {
+    /* display: flex; */
+    padding: 0px 20px;
+  }
+  .logo{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .input{
+    display:none;
+    input{
+      width: 100px;
+    }
+  }
+  .productCard{
+    width: 280px;
+
+    img{
+      margin-top: 10px;
+      width: 80%;
+    }
   }
 }
